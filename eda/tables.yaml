@@ -1,10 +1,16 @@
+bq-datafarm:
+  data_warehouse:
+    - core_prd_info_1d
+    - cust_target_master_1d
+    - prd_info_1d
+    - std_ord_prd_1d
 bq-marketkurly:
-  kalog:
-    - kurly_app # json 컬럼 있음
-    - kurly_app_mweb # json 컬럼 있음
-    - kurly_app_dweb # json 컬럼 있음
-  kalog_raw:
-    - DATA-LOGCOLLECT-CLIENT_EVENT # json 컬럼 있음
+  # kalog:
+  #   - kurly_app # json 컬럼 있음
+  #   - kurly_app_mweb # json 컬럼 있음
+  #   - kurly_app_dweb # json 컬럼 있음
+  # kalog_raw:
+  #   - DATA-LOGCOLLECT-CLIENT_EVENT # json 컬럼 있음
   product_collection:
     - product_collections
     - product_collection_items
@@ -32,3 +38,8 @@ bq-marketkurly:
     - discount_view
   review:
     - gd_goods_review
+service-kurlydata:
+  optimize_coupon:
+    - fact_member_cluster
+  product_notice_info:
+    - product_image_ocr
