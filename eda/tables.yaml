@@ -1,0 +1,34 @@
+bq-marketkurly:
+  kalog:
+    - kurly_app # json 컬럼 있음
+    - kurly_app_mweb # json 컬럼 있음
+    - kurly_app_dweb # json 컬럼 있음
+  kalog_raw:
+    - DATA-LOGCOLLECT-CLIENT_EVENT # json 컬럼 있음
+  product_collection:
+    - product_collections
+    - product_collection_items
+    - product_categories
+    - site_category_groups
+    - gd_goods_link
+  pms:
+    - contents_products_view
+    - deal_products_view
+    - master_category_view
+    - master_products # json 컬럼 있음
+    - product_descriptions # json 컬럼 있음
+  ord:
+    - orders
+    - orderer
+    - order_deal_product
+  cms:
+    - mk_member
+    - mk_member_grp
+    - mk_goods_view
+    - mk_addressbook
+    - mk_goods_view
+    - dsms_contents_product
+  discount:
+    - discount_view
+  review:
+    - gd_goods_review
